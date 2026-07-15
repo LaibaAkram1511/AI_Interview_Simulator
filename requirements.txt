@@ -1,0 +1,10 @@
+streamlit
+langchain
+langchain-groq
+python-dotenv
+psycopg2-binary
+sqlalchemy
+bcrypt
+streamlit-mic-recorder
+pydub
+groq
