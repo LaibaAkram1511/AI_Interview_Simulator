@@ -1,7 +1,6 @@
 import streamlit as st
 from streamlit_mic_recorder import mic_recorder
 from src.speech_to_text import convert_audio_to_text
-from src.database import create_tables, SessionLocal, CandidateProfile, InterviewReport
 from src.auth import signup_user, login_user
 from src.interview_engine import generate_question, generate_feedback, generate_final_report
 from src.scoring import calculate_average_scores
@@ -13,8 +12,6 @@ st.set_page_config(
     page_icon="🎤",
     layout="wide"
 )
-
-create_tables()
 
 
 if "auth_page" not in st.session_state:
