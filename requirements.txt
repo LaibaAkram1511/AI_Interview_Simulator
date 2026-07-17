@@ -1,6 +1,8 @@
 streamlit
 langchain
 langchain-groq
+langchain-core
+langchain-community
 python-dotenv
 psycopg2-binary
 sqlalchemy
